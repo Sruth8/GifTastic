@@ -1,14 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <script src="main.js"></script>
+  <meta charset="UTF-8">
+  <title>Star Trek Giphpy</title>
+  <link rel="stylesheet" type="text/css" href="assests/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assests/css/style.css">
 </head>
 <body>
-    
+ 
+ 
+ 
+  <header>
+    <h2>Find your favorite Star Trek Gifhy here!</h2>
+    <br>
+    <h2>If you want to see your favorite charaters come to life, just click on the image!</h2>
+  </header>
+  <br>
+  <br>
+ 
+ 
+<div id = "wrapper">
+  <div id="buttonItems"></div>
+</div>
+ 
+  <!-- This is for the user to add there charaters -->
+  
+  <form>
+    <div class="row">
+      <div class="col-md-3">
+        <input type="text" id="newChar" class="form-control" placeholder="Create your Crew">
+        <input id="newChar2" type="submit" class="btn-success" value="Click here to add your crew!">
+        
+        <!-- Characters without images will get an error-->
+        <span id="entry"></span>
+      </div>
+    </div>
+  </form>
+  <br>
+ 
+ 
+  <!-- Ratings div -->
+ 
+  <div id="ratings"></div>
+ 
+ 
+ 
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script type="text/javascript" src="assests/gif.js"></script>
 </body>
 </html>

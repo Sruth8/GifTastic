@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(85, 141, 226);
+font-family: Arial, Helvetica, sans-serif
+}
+
+header {
+    font-size: 20px;
+    font-weight: 1000; 
+    text-align: center
+
+}
+
+
+#wrapper {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-success{
+    background-color: rgba(103, 243, 178, 0.747);
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 200px;
+    position: center; 
+ 
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  
+.newChar2 {
+    background-color: blue;
+    font-size: 12px;
+    padding:10px;
+  margin:10px 0;
+}
+
+#button3 {
+    font-size: 12px;
+    padding: 12px 28px;
+}
