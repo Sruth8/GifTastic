@@ -12,9 +12,11 @@ Instruction
 
 Technologies used
 
-HTML
-CSS
-JAVASCRIPT
-Giphy API
-Ajax
+* HTML
+* CSS
+* JAVASCRIPT
+* Giphy API
+* Ajax
+
+![Image of GiphTastic](/images/Capture.PNG)
  
